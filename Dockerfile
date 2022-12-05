@@ -1,4 +1,4 @@
-FROM node:10.7
+FROM node:16.18
 RUN apt-get update -y
 RUN apt-get install -y rsync
 RUN apt-get install -y jq
